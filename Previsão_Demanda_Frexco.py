@@ -45,9 +45,9 @@ dados["Dia da Semana"] = dados["Dia da Semana"].replace(Dic_Dias_PTBR)
 
 #Criando um DataFrame apenas com os dados referentes as vendas nos finais de semana.
 
-Sábado = (dados.loc[dados["Dia da Semana"]=="Sábado"])
-Domingo = (dados.loc[dados["Dia da Semana"]=="Domingo"])
-finaldesemana = pd.concat([Sábado,Domingo])
+sabado = (dados.loc[dados["Dia da Semana"]=="Sábado"])
+domingo = (dados.loc[dados["Dia da Semana"]=="Domingo"])
+finaldesemana = pd.concat([sabado,domingo])
 finaldesemana =  finaldesemana.sort_values("Data")
 
 #Criando variáveis que iremos usar na função final para calcular nossa previsão de demanda para os próximos 5 dias.
