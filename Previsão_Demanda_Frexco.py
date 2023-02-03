@@ -1,6 +1,6 @@
-### Frexco Alimentos ###
+###            Frexco Alimentos            ###
 ### Somos a ponte entre o campo e a cidade ###
-### Previsão de demanda para 5 dias ###
+###     Previsão de demanda para 5 dias    ###
 ### Estágiario responsável: Cássio Ribeiro ###
 
 
