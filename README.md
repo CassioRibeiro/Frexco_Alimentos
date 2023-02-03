@@ -29,4 +29,7 @@ Criamos novos frames inserindo colunas, outros frames agrupando e variáveis par
 
 Todos os frames podem ser visualizados usando o comando "display(nome do frame desejado)" após o final do código.
 
-Faça bom proveito.
+Gostaria de enfatizar que o o projeto foi todo desenvolvido com conhecimentos próprios com algumas consultas. Claro que existem meios para fazer uma previsão
+Mais detalhada através de machine learning. Entretanto, não acho ético da minha parte entregar um projeto com dados copiados de vídeos no YouTube.
+
+Muito obrigado.
