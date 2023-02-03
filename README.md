@@ -29,4 +29,4 @@ Criamos novos frames inserindo colunas, outros frames agrupando e variáveis par
 
 Todos os frames podem ser visualizados usando o comando "display(nome do frame desejado)" após o final do código.
 
-Faça com proveito.
+Faça bom proveito.
