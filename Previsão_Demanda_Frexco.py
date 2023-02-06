@@ -47,8 +47,7 @@ dados["Dia da Semana"] = dados["Dia da Semana"].replace(Dic_Dias_PTBR)
 
 sabado = (dados.loc[dados["Dia da Semana"]=="Sábado"])
 domingo = (dados.loc[dados["Dia da Semana"]=="Domingo"])
-finaldesemana = pd.concat([sabado,domingo])
-finaldesemana =  finaldesemana.sort_values("Data")
+finaldesemana = pd.concat([sabado,domingo]).sort_values("Data")
 
 #Criando variáveis que iremos usar na função final para calcular nossa previsão de demanda para os próximos 5 dias.
 
@@ -83,7 +82,7 @@ sema3 = sema3["Vendas"].sum()
 def previsaodemanda (a,b,c):
     return ((a+b+c)/3)
 
-print ("A previsão de demanda para os próximos 5 dias são {:.0f} produtos."
+print ("A previsão de demanda para os próximos 5 dias é de {:.0f} produtos."
     .format (previsaodemanda(sema1, sema2, sema3) + previsaodemanda(final1, final2, final3)))
 
 
