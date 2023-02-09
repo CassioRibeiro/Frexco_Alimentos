@@ -61,11 +61,11 @@ final3 = final3["Vendas"].sum()
 #Criando DataFrames apenas com os dados referentes as vendas nos dias de semana.
 
 segunda = (dados.loc[dados["Dia da Semana"]=="Segunda-Feira"])
-terça = (dados.loc[dados["Dia da Semana"]=="Terça-Feira"])
+terca = (dados.loc[dados["Dia da Semana"]=="Terça-Feira"])
 quarta = (dados.loc[dados["Dia da Semana"]=="Quarta-Feira"])
 quinta = (dados.loc[dados["Dia da Semana"]=="Quinta-Feira"])
 sexta = (dados.loc[dados["Dia da Semana"]=="Sexta-Feira"])
-semana = pd.concat([segunda,terça,quarta,quinta,sexta]).sort_values("Data")
+semana = pd.concat([segunda,terca,quarta,quinta,sexta]).sort_values("Data")
 
 #Criando variáveis para serem usadas na função final.
 
