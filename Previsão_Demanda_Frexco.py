@@ -29,7 +29,7 @@ def diasemana (x):
 
 dados ["Dia da Semana"] = dados["Dia da Semana"].apply(diasemana)
 
-#Criando um dicionário para tradução dos dias da semana.dados 
+#Criando um dicionário para tradução dos dias da semana.
 
 Dic_Dias_PTBR = {"Monday": "Segunda-Feira",
                 "Tuesday":"Terça-Feira",
